@@ -1,0 +1,23 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/colors.scss';
+
+.database-logo {
+    width: 35%;
+    height: 100px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 0;
+    position: relative;
+    img {
+        height: 45%;
+        position: absolute;
+        top: 30%;
+
+        @include desktop {
+            height: 100%;
+            position: unset;
+        }
+    }
+};
+
